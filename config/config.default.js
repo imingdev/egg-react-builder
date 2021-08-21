@@ -28,7 +28,7 @@ exports.builder = {
       video: ({ isDev }) => (isDev ? '[path][name].[ext]' : 'videos/[contenthash:8].[ext]'),
       cssModulesName: ({ isDev }) => (isDev ? '[name]__[local]--[hash:base64:5]' : '_[hash:base64:10]'),
     },
-    useEslint: false,
+    useEslint: true,
   },
   dir: {
     root: process.cwd(),
