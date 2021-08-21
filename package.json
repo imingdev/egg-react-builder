@@ -1,6 +1,6 @@
 {
   "name": "egg-react-builder",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "mingdev <mingdev@163.com>",
   "scripts": {
     "dev": "egg-bin dev"
@@ -16,7 +16,7 @@
     "consola": "^2.15.3",
     "egg-utils": "^2.4.1",
     "express": "^4.17.1",
-    "koa-proxy": "^1.0.0-alpha.3",
+    "koa-server-http-proxy": "^0.1.0",
     "portfinder": "^1.0.28",
     "rimraf": "^3.0.2",
     "yargs": "^17.1.1"
