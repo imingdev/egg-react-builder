@@ -1,6 +1,6 @@
 {
   "name": "egg-react-builder",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "mingdev <mingdev@163.com>",
   "scripts": {
     "dev": "egg-bin dev"
