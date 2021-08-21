@@ -1,12 +1,15 @@
 {
   "name": "egg-react-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "mingdev <mingdev@163.com>",
   "scripts": {
     "dev": "egg-bin dev"
   },
   "bin": {
     "rext": "bin/cli.js"
+  },
+  "eggPlugin": {
+    "name": "builder"
   },
   "dependencies": {
     "@rextjs/builder": "^1.0.8",
@@ -15,8 +18,6 @@
     "express": "^4.17.1",
     "koa-proxy": "^1.0.0-alpha.3",
     "portfinder": "^1.0.28",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
     "yargs": "^17.1.1"
   },
