@@ -1,0 +1,38 @@
+{
+  "name": "egg-react-builder",
+  "version": "1.0.0",
+  "author": "mingdev <mingdev@163.com>",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "bin": {
+    "rext": "bin/cli.js"
+  },
+  "dependencies": {
+    "@rextjs/builder": "^1.0.8",
+    "consola": "^2.15.3",
+    "egg-utils": "^2.4.1",
+    "express": "^4.17.1",
+    "koa-proxy": "^1.0.0-alpha.3",
+    "portfinder": "^1.0.28",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "egg": "^2.30.0",
+    "egg-bin": "^4.16.4",
+    "eslint": "^7.31.0",
+    "eslint-config-egg": "^9.0.0"
+  },
+  "files": [
+    "app",
+    "bin",
+    "config",
+    "lib",
+    "agent.js",
+    "app.js"
+  ],
+  "homepage": "https://github.com/imingdev/egg-react-builder"
+}
