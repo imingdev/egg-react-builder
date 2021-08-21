@@ -1,12 +1,12 @@
 {
   "name": "egg-react-builder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "mingdev <mingdev@163.com>",
   "scripts": {
     "dev": "egg-bin dev"
   },
   "bin": {
-    "rext": "bin/cli.js"
+    "rext-bin": "bin/cli.js"
   },
   "eggPlugin": {
     "name": "builder"
